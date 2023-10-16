@@ -1,0 +1,25 @@
+C. Explique, com suas palavras, os conceitos/significados dos seguintes termos:
+
+1. Funções
+    São partes de código que trabalham de forma independente, assim, elas podem ser reutilizadas durante o código 
+    sem a necessidade de reescrever essa determinada parte do código. 
+
+2. Argumentos/Parâmetros
+    São funções que podem receber valores, o argumento é um tipo de declaração de variavel que só existe a apertir do momento em que
+    a função foi inicializada, e desaparece quando a função é encerrada.
+
+3. Tipos de funções
+    Existem as funções sem retorno e parâmetro do tipo 'void', chamadas de procedimentos, e as que aceitam esses valores,
+    chamadas de protótipos.
+
+4. void
+    Void é um tipo de função sem retorno, também chamada de procedimento.
+
+5. Tipos de passagem de parâmetro (qual o padrão do C/C++?)
+    Em C existem dois tipo, por valor e por referência. Na de valor, apenas uma copia do valor da variavel é forneciada para 
+    a função, sem alterar o conteúdo original; já na de referência, como é fornecido o endereço da variavel, o conteúdo original
+    é modificado.
+
+6. Retorno de uma função (quais os tipos de retorno?)
+    Se o retorno de uma função for necessário, ele deve ser especificado 
+    antes do nome da função, podendo ser do tipo int, flot ou qualquer outro.
