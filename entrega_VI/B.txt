@@ -1,0 +1,7 @@
+B - A função has_zero() deve retornar true se um dos elementos do vetor tem valor
+zero e false se todos os elementos são diferentes de zero. Infelizmente, essa função
+contém um erro. Encontre o erro e mostre como arrumá-lo.
+
+    - Nessa função, se o zero não estiver no primeiro termo o retorno será 'false', pois a
+função se encerra no momento em que um 'return' é executado. 
+    Para concentar basta criar uma variavel para armazenar o 'true or false' e retornar o valor dessa variavel.
