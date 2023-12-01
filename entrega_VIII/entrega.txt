@@ -1,0 +1,21 @@
+A.  (a)
+
+B.  y = 4
+
+C. 
+I. Falso
+II. Verdadeiro
+II. Verdadeiro
+
+D. O ponteiro deve armazenar um endereço, ou seja,
+deveria ser "p = &x" e para imprimir o valor de x que usaria
+"cout << *p";
+
+E. vai dar 9, porque trabalha com o conteudo do ponteiro;
+
+F.
+pc1 = 1000
+pc2 = 1001
+pc3 = 1005
+pc4 = 1000
+
