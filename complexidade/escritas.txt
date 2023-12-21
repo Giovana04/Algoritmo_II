@@ -1,0 +1,21 @@
+1 - 
+a. É a rapidez com que o código é executado em relação a sua entrada;
+
+b. Tempo de execução real e número de operações;
+
+c. Normalmente é o número de operações;
+
+d. utiliza dos recursos da máquina;
+
+e. notação Big O (O), por exemplo um algoritmo que tem uma complexidade de tempo de O(n2);
+
+
+2 -  Notação-Big-Oh serve para identificar o grau da complexidade, por exemplo o O(n2) tem 2 loops aninhados na função;
+
+
+3 - O codigo possui no minino complexidade O(n2) pois possui dois loos aninhados, na complexidade de tempo temos dois loops aninhados onde o primeiro loop, com índice i, é executado n vezes.
+O segundo loop, com índice j, depende do valor de i. Se for ímpar, o segundo loop é executado 2n vezes. Caso contrário, se for par, o segundo loop executa apenas n vezes.
+Então existem dois cenários, um onde a complexidade é de O(n2 * 2n) e outro onde é O(n2);
+
+4 - Melhor Caso: O(1) - Se o elemento procurado estiver na primeira posição do vetor.
+    Pior Caso: O(n) - Se o elemento procurado não estiver no vetor ou estiver na última posição do vetor.
