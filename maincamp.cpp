@@ -82,8 +82,17 @@ void bubble_r (rankiado rank[], int n);
 
 void M_crono(cronogramas cronograma[], cria_chales chales[], rankiado rank[]);
 
+void teste_bubble();
+
 int main() {
     system("cls"); // Limpa o terminal
+
+    teste_bubble();
+
+    cout << endl << "Aperte qualquer tecla para iniciar: ";
+    cin.ignore();
+
+    system("cls");
 
     cria_chales chales[14];
 
@@ -645,7 +654,25 @@ void M_crono(cronogramas cronograma[], cria_chales chales[], rankiado rank[]){
     }
 }
 
+void teste_bubble(){
+    // Teste para um array desordenado
+    rankiado rank1[5] = {{"dez", 1}, {"cinco", 2}, {"oito", 3}, {"um", 4}, {"tres", 5}};
+    bubble_r(rank1, 5);
+    assert(rank1[0].premios == 5);
 
+    // Teste para um array ordenado em ordem crescente
+    rankiado rank2[] = {{"seis", 1}, {"seis", 1}, {"seis", 1}, {"seis", 1}, {"seis", 1}};
+    bubble_r(rank2, 5);
+    assert(rank2[0].premios == 1);
+
+
+    // Teste para um array com todos os elementos iguais
+    rankiado rank3[] = {{"seis", 5}, {"seis", 4}, {"seis", 3}, {"seis", 2}, {"seis", 1}};
+    bubble_r(rank3, 5);
+    assert(rank3[0].premios == 5);
+
+    cout << "Testes Aprovados!";
+}
 
 
 
